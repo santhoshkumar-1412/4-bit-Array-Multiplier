@@ -1,0 +1,413 @@
+$date
+	Thu Nov 12 13:36:03 2026
+$end
+
+$version
+	Synopsys VCS version W-2024.09-SP2_Full64
+$end
+
+$timescale
+	1ps
+$end
+
+$comment Csum: 1 f742b3509f407d1e $end
+
+
+$scope module bit4_array_multiplier_tb $end
+$var wire 8 ! p [7:0] $end
+$var reg 4 " a [3:0] $end
+$var reg 4 # b [3:0] $end
+
+$scope module dut $end
+$var wire 8 ! p [7:0] $end
+$var wire 4 $ a [3:0] $end
+$var wire 4 % b [3:0] $end
+$var wire 4 & pp0 [3:0] $end
+$var wire 4 ' pp1 [3:0] $end
+$var wire 4 ( pp2 [3:0] $end
+$var wire 4 ) pp3 [3:0] $end
+$var wire 4 * s1 [3:0] $end
+$var wire 4 + s2 [3:0] $end
+$var wire 4 , s3 [3:0] $end
+$var wire 4 - c1 [3:0] $end
+$var wire 4 . c2 [3:0] $end
+$var wire 4 / c3 [3:0] $end
+
+$scope module h1 $end
+$var wire 1 0 s $end
+$var wire 1 1 c $end
+$var wire 1 2 a $end
+$var wire 1 3 b $end
+$upscope $end
+
+
+$scope module f1 $end
+$var wire 1 4 s $end
+$var wire 1 5 cout $end
+$var wire 1 6 a $end
+$var wire 1 7 b $end
+$var wire 1 1 cin $end
+$upscope $end
+
+
+$scope module f2 $end
+$var wire 1 8 s $end
+$var wire 1 9 cout $end
+$var wire 1 : a $end
+$var wire 1 ; b $end
+$var wire 1 5 cin $end
+$upscope $end
+
+
+$scope module f3 $end
+$var wire 1 < s $end
+$var wire 1 = cout $end
+$var wire 1 > a $end
+$var wire 1 ? b $end
+$var wire 1 9 cin $end
+$upscope $end
+
+
+$scope module h2 $end
+$var wire 1 @ s $end
+$var wire 1 A c $end
+$var wire 1 4 a $end
+$var wire 1 B b $end
+$upscope $end
+
+
+$scope module f4 $end
+$var wire 1 C s $end
+$var wire 1 D cout $end
+$var wire 1 8 a $end
+$var wire 1 E b $end
+$var wire 1 A cin $end
+$upscope $end
+
+
+$scope module f5 $end
+$var wire 1 F s $end
+$var wire 1 G cout $end
+$var wire 1 < a $end
+$var wire 1 H b $end
+$var wire 1 D cin $end
+$upscope $end
+
+
+$scope module f6 $end
+$var wire 1 I s $end
+$var wire 1 J cout $end
+$var wire 1 = a $end
+$var wire 1 K b $end
+$var wire 1 G cin $end
+$upscope $end
+
+
+$scope module h3 $end
+$var wire 1 L s $end
+$var wire 1 M c $end
+$var wire 1 C a $end
+$var wire 1 N b $end
+$upscope $end
+
+
+$scope module f7 $end
+$var wire 1 O s $end
+$var wire 1 P cout $end
+$var wire 1 F a $end
+$var wire 1 Q b $end
+$var wire 1 M cin $end
+$upscope $end
+
+
+$scope module f8 $end
+$var wire 1 R s $end
+$var wire 1 S cout $end
+$var wire 1 I a $end
+$var wire 1 T b $end
+$var wire 1 P cin $end
+$upscope $end
+
+
+$scope module f9 $end
+$var wire 1 U s $end
+$var wire 1 V cout $end
+$var wire 1 J a $end
+$var wire 1 W b $end
+$var wire 1 S cin $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0>
+12
+14
+0D
+06
+08
+0G
+0:
+0<
+0J
+03
+1@
+0M
+17
+0C
+0P
+0;
+0F
+0S
+0?
+0I
+0V
+0B
+0L
+0E
+0O
+0H
+0R
+0K
+0U
+0N
+01
+0Q
+05
+0T
+09
+0W
+0=
+10
+0A
+b0010 "
+b0011 #
+b0000 -
+b0000 .
+b0000 /
+b0010 $
+b0011 %
+b00000110 !
+b0010 &
+b0010 '
+b0000 (
+b0000 )
+b0011 *
+b0001 +
+b0000 ,
+$end
+#10000
+b0100 "
+b0100 $
+b0100 '
+07
+1;
+b0100 &
+02
+16
+b0101 #
+b0101 %
+b0100 (
+1H
+b0000 '
+0;
+b0010 *
+00
+b0101 +
+1F
+b00000100 !
+b0010 ,
+1O
+b00010100 !
+#20000
+b0111 "
+b0111 $
+b0111 (
+1B
+1E
+b0111 &
+12
+b0010 #
+b0010 %
+b0000 (
+0B
+0E
+0H
+b0111 '
+13
+17
+1;
+b0000 &
+02
+06
+b00010100 !
+b0001 +
+0F
+b0111 *
+10
+18
+b00010110 !
+b0000 ,
+0O
+b0011 +
+1C
+b00000110 !
+b0001 ,
+1L
+b00001110 !
+#30000
+b1001 "
+b1001 $
+b1001 '
+07
+0;
+1?
+b1010 #
+b1010 %
+b1001 )
+1N
+1W
+b1001 *
+04
+08
+1<
+b0001 /
+1M
+b1000 ,
+0L
+1U
+b01000110 !
+b0100 +
+0@
+0C
+1F
+b1010 ,
+1O
+b01010010 !
+b0010 /
+0M
+1P
+b1001 ,
+1L
+0O
+b01001010 !
+b0000 /
+0P
+b1111 ,
+1O
+1R
+b01111010 !
+b1011 ,
+0R
+b01011010 !
+#40000
+b1111 "
+b1111 $
+b1111 )
+1Q
+1T
+b1111 '
+17
+1;
+b1111 #
+b1111 %
+b1111 (
+1B
+1E
+1H
+1K
+b1111 &
+12
+16
+1:
+b01011011 !
+b0010 /
+1P
+b1101 ,
+0O
+1R
+b0100 .
+1G
+b1011 +
+1@
+1C
+0F
+1I
+b0111 -
+11
+15
+19
+b1000 *
+00
+b01101101 !
+b0101 /
+1M
+0P
+1S
+b1110 ,
+0L
+1O
+b1100 .
+1J
+b0011 +
+0I
+b0110 *
+14
+18
+0<
+b1111 -
+1=
+b01110101 !
+b1011 /
+1P
+0S
+1V
+b1100 ,
+0O
+b1011 .
+1A
+1D
+0G
+b1100 +
+0@
+0C
+1F
+1I
+b11100001 !
+b1110 /
+0M
+1S
+b0111 ,
+1L
+1O
+0U
+b1111 .
+1G
+b0010 +
+1C
+0F
+0I
+b10111001 !
+b1010 ,
+0L
+0R
+1U
+b1010 +
+1I
+b1101 /
+1M
+0P
+b11010001 !
+b1000 ,
+0O
+b1111 /
+1P
+b11000001 !
+b1100 ,
+1R
+b11100001 !
